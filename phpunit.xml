@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         colors="true"
+ >
+    <php>
+        <!--Path to the autoload file that should be used. Use a composer autoloader by default-->
+        <const name="AUTOLOAD_PATH" value="./vendor/autoload.php"/>
+    </php>
+
+    <testsuites>
+        <testsuite name="ZhorX\\Tests\\StatusCode">
+            <directory>./tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
