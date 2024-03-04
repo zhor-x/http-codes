@@ -9,7 +9,7 @@ All codes have been taken from [Wikipedia](https://en.wikipedia.org/wiki/List_of
 Using composer:
 
 ```bash
-$ composer require zhor-x/http-status-code
+$ composer require zhor-x/http-codes
 ```
 
 ## Usage
